@@ -102,3 +102,12 @@ docker run -d --name recall-analysis food-recall-analysis
 ✅ Reports for decision-makers  
 ✅ Deployed via Docker for scalability  
 
+
+---
+
+## Recommendation
+✅ We can create **FastAPI** endpoint to generate the report
+✅ We can save **weekly data** inside the database after scrapping with **Cron job/Scheduler** 
+✅ After grabbing one week data from the database we can generate weekly reports for decision-makers  
+✅ Deployed via Docker for scalability  
+
