@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  recall-monitor:
+    image: recall-monitor:prod
+    build:
+      context: .
+      target: prod
+    environment:
+      - API_KEY=${API_KEY}
+    volumes:
+      - reports:/app/reports
+    restart: unless-stopped
+
+volumes:
+  reports:
