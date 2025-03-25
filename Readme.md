@@ -28,7 +28,7 @@ This system automates the collection, extraction, ranking, and reporting of food
 
 ## System Architecture
 ### Components:
-- **FastAPI Backend** – Handles requests & API endpoints.
+- **FastAPI Backend** – Handles requests & API endpoints (**not covered in this assignment**).
 - **Data Collection Agents** – Scrapes FDA & USDA recall data.
 - **AI Extraction Agents** – Uses OpenAI for structured recall data.
 - **Economic Impact & Severity Ranking** – AI-powered analysis (manual + OpenAI).
