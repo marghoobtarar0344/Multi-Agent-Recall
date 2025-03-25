@@ -60,6 +60,10 @@ python main.py
 docker build -t food-recall-analysis .
 docker run -d --name recall-analysis food-recall-analysis
 ```
+### Build & Run the Docker Compose
+```bash
+docker compose up --build
+```
 
 ---
 
